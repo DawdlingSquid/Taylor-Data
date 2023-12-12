@@ -12,12 +12,6 @@ str(taylor_swift_data)
 # Convert 'release_date' column to Date object
 taylor_swift_data$release_date <- as.Date(taylor_swift_data$release_date, format = "%m/%d/%Y")
 
-total_missing_values <- sum(is.na(taylor_swift_data))
-print(total_missing_values)
-
-
-missing_values_by_column <- colSums(is.na(taylor_swift_data))
-print(missing_values_by_column)
 
 install.packages("ggplot2")
 library(ggplot2)
