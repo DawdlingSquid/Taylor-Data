@@ -1,5 +1,5 @@
-read.csv("C:/Users/dinah/OneDrive/Grad school/Data Visual/Taylor-Data-Project/taylor_swift_spotify_clean.csv")
-taylor_swift_data <- read.csv("C:/Users/dinah/OneDrive/Grad school/Data Visual/Taylor-Data-Project/taylor_swift_spotify_clean.csv")
+read.csv("./taylor_swift_spotify_clean.csv")
+taylor_swift_data <- read.csv("./taylor_swift_spotify_clean.csv")
 
 
 head(taylor_swift_data)
