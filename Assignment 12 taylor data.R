@@ -12,8 +12,8 @@ install.packages("dplyr")
 library(dplyr)
 
 
-read.csv("./taylor_swift_spotify_clean.csv")
-taylor_swift_data <- read.csv("./taylor_swift_spotify_clean.csv")
+read.csv("taylor_swift_spotify_clean.csv")
+taylor_swift_data <- read.csv("taylor_swift_spotify_clean.csv")
 
 
 head(taylor_swift_data)
